@@ -37,23 +37,23 @@ cd devops
 Pick an example and follow its README. Typical examples include:
 
 - Docker example
-  cd examples/docker
-  docker build -t demo-app .
-  docker run --rm -p 8080:8080 demo-app
+    - cd examples/docker
+    - docker build -t demo-app .
+    - docker run --rm -p 8080:8080 demo-app
 
 - Docker Compose
-  cd examples/docker
-  docker compose up --build
+    - cd examples/docker
+    - docker compose up --build
 
 - Terraform example (make sure terraform is installed)
-  cd examples/terraform
-  terraform init
-  terraform plan
-  terraform apply
+    - cd examples/terraform
+    - terraform init
+    - terraform plan
+    - terraform apply
 
 - Ansible example (make sure ansible is installed)
-  cd examples/ansible
-  ansible-playbook -i inventory playbook.yml
+    - cd examples/ansible
+    - ansible-playbook -i inventory playbook.yml
 
 Customize prerequisites and commands in each example's README.
 
